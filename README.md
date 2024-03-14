@@ -34,18 +34,18 @@ Before running the application, make sure you have the following installed:
 To use this application:
 
 1. Ensure your screen capture area is correctly set up.
-2. Modify the parameters in the `main()` function of `index.js` according to your requirements.
+2. Modify the parameters in the `main()` function of `captureScreenshotsToPDF.js` according to your requirements.
 3. Run the application:
 
     ```bash
-    node index.js
+    node captureScreenshotsToPDF.js
     ```
 
 The screenshots will be captured and saved as a PDF file in the specified output folder.
 
 ## Configuration
 
-You can customize the behavior of the application by modifying the following variables in `index.js`:
+You can customize the behavior of the application by modifying the following variables in `captureScreenshotsToPDF.js`:
 
 - `numberOfPages`: Number of screenshots to capture.
 - `captureArea`: Specifies the coordinates and dimensions of the capture area.
